@@ -28,7 +28,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <div className="bg-rose-400 p-1 border-b-2 border-white  ">
+        <div className="p-1 border-b-2 border-white  ">
           <Header />
         </div>
 

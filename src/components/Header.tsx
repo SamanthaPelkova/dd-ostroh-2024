@@ -199,7 +199,7 @@ export function NavigationMenuDemo() {
             <NavigationMenuItem>
               <Link href="/docs" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Sponzoři
+                  Kdo nás podporuje?
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
@@ -214,7 +214,7 @@ export function NavigationMenuDemo() {
 
             <NavigationMenuItem>
               <Link href="/kontakt" legacyBehavior passHref>
-                <NavigationMenuLink className="bg-white font-bold rounded-lg shadow-2xl shadow-white p-2">
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Kontakt
                 </NavigationMenuLink>
               </Link>
