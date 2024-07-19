@@ -19,7 +19,12 @@ export default function Home() {
         <img
           src="/images/bg-3.png"
           alt="background-image"
-          className="w-1/1 relative"
+          className="ml-1 invisible sm:visible"
+        />
+        <img
+          src="/images/bg-4.png"
+          alt="background-image"
+          className="visible sm:invisible sm:mt-2 -mt-20"
         />
       </div>
       <Container className="relative z-10 min-h-screen bg-transparent font-sans antialiased mt-6 sm:mt-5">
