@@ -24,6 +24,12 @@ const config = {
       },
       colors: {
         customBlue: "#637FFF",
+        customYellow: "#FFDB4C",
+        customYellowHover: "#FFEEAA",
+        customBlueHover: "#A6B6FF",
+        customBlueHoverDark: "#496AFF",
+        customWhiteGreen: "#BCD498",
+        customDarkGreen: "#85987D",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
